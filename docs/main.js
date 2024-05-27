@@ -5,7 +5,7 @@ function insert_number(params) {
     
     let random_number=document.getElementById("number")
     
-    let randomNumber = Math.floor(Math.random() * 20) + 1;
+    let randomNumber = Math.floor(Math.random() * 45) + 1;
     random_number.innerText = String(randomNumber)
 }
 
